@@ -1,0 +1,50 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e3a5f, #0ea5e9);
+}
+
+header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+header p  { font-size: 1.1rem; color: #bae6fd; }
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #0ea5e9;
+}
+
+.skill-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.box {
+  background: #1e293b;
+  border: 1px solid #0ea5e9;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+  background: #1e293b;
+  color: #64748b;
+}
