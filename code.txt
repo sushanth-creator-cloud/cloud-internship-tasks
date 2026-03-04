@@ -1,0 +1,13 @@
+import json
+
+def lambda_handler(event, context):
+    body = {
+        "message": "Hello from Serverless!",
+        "status": "success",
+        "cloud": "AWS Lambda",
+        "student": "Sushanth"
+    }
+    return {
+        "statusCode": 200,
+        "body": json.dumps(body)
+    }
